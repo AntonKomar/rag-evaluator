@@ -1,0 +1,77 @@
+goals:
+  - name: "The RAG system generator component returns precise and true answers"
+    weight: 1.0
+    questions:
+      - text: "Is the response provided by generator component based on facts and ground truth?"
+        weight: 1.0
+        metrics:
+          faithfulness: 1.0
+          factual_consistency: 0.8
+          attribution_score: 0.6
+      - text: "Does the generator component hallucinate when the required information is unavailable?"
+        weight: 1.0
+        metrics:
+          faithfulness: 1.0
+          factual_consistency: 0.9
+
+  - name: "The RAG system returns only relevant information"
+    weight: 1.0
+    questions:
+      - text: "Does the retrieval component return documents that are contextually relevant to the user's query?"
+        weight: 1.0
+        metrics:
+          context_precision: 1.0
+          context_relevance: 0.9
+          semantic_diversity: 0.6
+      - text: "Does the generation component sufficiently address the user's query and provide useful information?"
+        weight: 1.0
+        metrics:
+          answer_relevance: 1.0
+          answer_completeness: 0.7
+
+  - name: "The RAG system covers all edge cases"
+    weight: 1.0
+    questions:
+      - text: "Does the retrieval component identify and return all possible information relevant to the query?"
+        weight: 1.0
+        metrics:
+          context_recall: 1.0
+          context_entities_recall: 0.8
+      - text: "Does the generator component provide all necessary details for a comprehensive answer?"
+        weight: 1.0
+        metrics:
+          answer_completeness: 1.0
+          context_utilization: 0.7
+
+  - name: "The generator component produces understandable and coherent answers"
+    weight: 1.0
+    questions:
+      - text: "Are the responses provided by the generator component easy to understand and logically coherent?"
+        weight: 1.0
+        metrics:
+          self_consistency: 1.0
+          bertscore: 0.7
+
+  - name: "The RAG system handles complex queries effectively"
+    weight: 1.0
+    questions:
+      - text: "Can the RAG system generate satisfactory answers for complex and confusing queries?"
+        weight: 1.0
+        metrics:
+          multi_hop_reasoning: 1.0
+          answer_correctness: 0.7
+          context_utilization: 0.6
+
+test_case_generation:
+  simple:
+    count: 5
+  complex:
+    count: 5
+  distracting:
+    count: 5
+  situational:
+    count: 5
+  double:
+    count: 5
+  conversational:
+    count: 5

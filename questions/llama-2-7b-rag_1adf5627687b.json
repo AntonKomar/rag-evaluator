@@ -1,0 +1,305 @@
+[
+  {
+    "question": "What is the email address for the office contact of Professor Tomas Sauer?",
+    "ground_truth": "doris.geyer@uni-passau.de",
+    "question_type": "simple",
+    "entities": [
+      "Professor Tomas Sauer",
+      "email address",
+      "doris.geyer@uni-passau.de"
+    ]
+  },
+  {
+    "question": "What does 'AStuPO' stand for in English?",
+    "ground_truth": "General study and examination regulations",
+    "question_type": "simple",
+    "entities": [
+      "AStuPO",
+      "General study and examination regulations"
+    ]
+  },
+  {
+    "question": "What is the course number for Control and Robotics (Lab)?",
+    "ground_truth": "5968",
+    "question_type": "simple",
+    "entities": [
+      "Control and Robotics (Lab)",
+      "course number",
+      "5968"
+    ]
+  },
+  {
+    "question": "In which language is the Text Mining course taught?",
+    "ground_truth": "English",
+    "question_type": "simple",
+    "entities": [
+      "Text Mining",
+      "language",
+      "English"
+    ]
+  },
+  {
+    "question": "Who is the lecturer for the Multimedia Retrieval course?",
+    "ground_truth": "Skopal",
+    "question_type": "simple",
+    "entities": [
+      "Multimedia Retrieval",
+      "lecturer",
+      "Skopal"
+    ]
+  },
+  {
+    "question": "Compare and contrast the learning outcomes for the Project in Visual Computing, Real Algebraic Geometry, and Visual Analytics courses. What are the key differences in the knowledge and abilities students are expected to gain from each course?",
+    "ground_truth": "Project in Visual Computing focuses on software project realization in visual computing and visualization, emphasizing problem analysis and implementation using state-of-the-art libraries. Real Algebraic Geometry aims at understanding and analyzing semialgebraic sets using algebraic methods, relating positivity to sums of squares. Visual Analytics provides a fundamental understanding of visual analytics concepts, visual data encoding, data representation, and the application of various techniques. The key differences lie in the specific domain knowledge (visual computing, algebraic geometry, visual analytics) and the corresponding abilities (software development, mathematical analysis, data visualization and analysis).",
+    "question_type": "complex",
+    "entities": [
+      "Project in Visual Computing",
+      "Real Algebraic Geometry",
+      "Visual Analytics",
+      "learning outcomes"
+    ]
+  },
+  {
+    "question": "Based on the provided contexts, what are the requirements for submitting written work, and what actions constitute plagiarism, leading to a failing grade?",
+    "ground_truth": "When submitting written work, you must include a declaration that the work was written independently without undue assistance, identifying all aids and sources used, including verbatim or paraphrased passages. Plagiarism involves unauthorized use of copyrighted work, intentionally or through gross negligence, by presenting someone else's work as your own.",
+    "question_type": "complex",
+    "entities": [
+      "written work",
+      "plagiarism",
+      "failing grade"
+    ]
+  },
+  {
+    "question": "What are the requirements for admission to the master's thesis, and how does the Text Mining Project course contribute to the skills needed for the thesis?",
+    "ground_truth": "Admission to the master's thesis requires enrollment in the master's program and proof of at least 40 ECTS credits. The application must be submitted to the Board of Examiners and include evidence of meeting the requirements and the provisional thesis topic. The Text Mining Project course provides students with basic concepts and key methods for text data analysis, as well as fundamental skills in Python and the NLTK library, which can be beneficial for thesis work involving text data.",
+    "question_type": "complex",
+    "entities": [
+      "master's thesis",
+      "admission requirements",
+      "Text Mining Project"
+    ]
+  },
+  {
+    "question": "Compare and contrast the application of the Immersive Analytics course and the Strategy for High-Tech Startups course within the curriculum, considering their respective focuses and the programme structure requirements for core and compulsory elective modules.",
+    "ground_truth": "Immersive Analytics, with a focus on \u201cITS\u201d, is applicable for the Master Artificial Intelligence Engineering and covers topics like immersive human-centered computational analytics. Strategy for High-Tech Startups, focusing on CCC, is offered by the Faculty of Business, Economics and Information Systems. The programme structure requires completion of core modules and at least 80 ECTS credits of compulsory elective modules from various module groups, including specific requirements for module groups 1-8. The two courses cater to different areas within the program, with Immersive Analytics likely fulfilling requirements within the \u201cITS\u201d area for AI Engineering students, while Strategy for High-Tech Startups could contribute to the CCC requirement.",
+    "question_type": "complex",
+    "entities": [
+      "Immersive Analytics",
+      "Strategy for High-Tech Startups",
+      "curriculum",
+      "programme structure"
+    ]
+  },
+  {
+    "question": "How does the Visual Analytics course contribute to the goals of the Artificial Intelligence Engineering program, and what skills does it equip students with in the context of AI-based systems?",
+    "ground_truth": "The Visual Analytics course equips students with an understanding of the fundamental concepts of Visual Analytics and the appropriate application of various techniques. It provides insights into visual data encoding and data representation, and offers an overview of visualizations and data mining algorithms. These skills are valuable for the design and development of AI-based systems, enabling students to evaluate such systems and assess properties like traceability, explicability, and transparency.",
+    "question_type": "complex",
+    "entities": [
+      "Visual Analytics",
+      "Artificial Intelligence Engineering",
+      "AI-based systems"
+    ]
+  },
+  {
+    "question": "What is the University's Language Center's policy on foreign language courses, and how does it relate to the building blocks for the M.Sc. Artificial Intelligence Engineering?",
+    "ground_truth": "The University's Language Center offers free language courses to enrolled students, with German as a Foreign Language specifically for international students. Students can start languages without prior skills, except for English. The context does not provide a direct relationship between language courses and the AI Engineering building blocks.",
+    "question_type": "distracting",
+    "entities": [
+      "Language Center",
+      "foreign language courses",
+      "M.Sc. Artificial Intelligence Engineering"
+    ]
+  },
+  {
+    "question": "What are the learning outcomes of the Text Mining Project course, and how do they compare to the skills gained in the Advanced Imaging course in the context of a Master's program?",
+    "ground_truth": "The Text Mining Project course focuses on basic concepts and key methods for analyzing text data, with proficiency in Python and NLTK. The Advanced Imaging course focuses on understanding advanced methods in image processing and the ability to understand and derive these methods. Both courses provide specialized knowledge and skills applicable to a Master's program but in different domains.",
+    "question_type": "distracting",
+    "entities": [
+      "Text Mining Project",
+      "Advanced Imaging",
+      "learning outcomes"
+    ]
+  },
+  {
+    "question": "What skills are recommended for the Computational Linguistics course, and how does the university ensure students possess good language skills in German and English?",
+    "ground_truth": "Recommended skills for the Computational Linguistics course include Information Retrieval and Natural Language Processing, Data Science, or Data Mining and Machine Learning. The university recommends that students have good language skills in German and English (at least level B2 CEFR for both) to make use of all specialisation options.",
+    "question_type": "distracting",
+    "entities": [
+      "Computational Linguistics",
+      "language skills",
+      "German",
+      "English"
+    ]
+  },
+  {
+    "question": "How does the qualification profile ensure the fulfillment of the degree program, and what are the compulsory and compulsory elective module areas for the M.Sc. Artificial Intelligence Engineering program?",
+    "ground_truth": "The qualification profile is ensured by different types of courses, including lectures, exercises, and independent exercises/practical courses. The lectures focus on imparting knowledge, exercises deepen this knowledge, and independent exercises/practical courses teach the use and application of knowledge. The M.Sc. Artificial Intelligence Engineering program is divided into the compulsory module area and compulsory elective module areas.",
+    "question_type": "distracting",
+    "entities": [
+      "qualification profile",
+      "degree program",
+      "M.Sc. Artificial Intelligence Engineering"
+    ]
+  },
+  {
+    "question": "What is the modular structure of the program, and what should students do if they want to change the display language of Stud.IP to English?",
+    "ground_truth": "The programme is divided into modules, each with an ECTS credit value reflecting student workload. To change the display setting of Stud.IP to English, click on your profile picture, select \"Einstellungen\", and under \"Sprache\", choose \"English\", then click on the \"Speichern\" button.",
+    "question_type": "distracting",
+    "entities": [
+      "modular structure",
+      "ECTS",
+      "Stud.IP",
+      "English"
+    ]
+  },
+  {
+    "question": "If a student is interested in parallel programming and wants to take the Practical Parallel Programming course, what are the learning outcomes they can expect, assuming they have a solid foundation in mathematics?",
+    "ground_truth": "Students will learn about multiple parallel architectures and various approaches to parallel programming. They will be able to choose and apply the appropriate programming approach for a given problem and parallel platform. Additionally, students will work on understanding research papers in the field.",
+    "question_type": "situational",
+    "entities": [
+      "Practical Parallel Programming",
+      "learning outcomes",
+      "parallel architectures",
+      "parallel programming"
+    ]
+  },
+  {
+    "question": "If a student needs to contact Professor Brigitte Forster-Heinlein, what is her phone number, and how does her professorship relate to the syllabus of the M.Sc. AI Engineering programme?",
+    "ground_truth": "Professor Brigitte Forster-Heinlein's phone number is 0851 / 509-3135. Her professorship is in Applied Mathematics, but the context doesn't specify a direct relationship to the M.Sc. AI Engineering programme syllabus other than her general expertise in mathematics might be relevant to some modules.",
+    "question_type": "situational",
+    "entities": [
+      "Brigitte Forster-Heinlein",
+      "phone number",
+      "M.Sc. AI Engineering"
+    ]
+  },
+  {
+    "question": "If a student is interested in analyzing and refactoring outdated software systems, should they take the Reverse and Reengineering course, and what regulation supplements the AStuPO?",
+    "ground_truth": "Yes, a student interested in analyzing and refactoring outdated software systems should take the Reverse and Reengineering course. The FStuPO (subject-specific study and examination regulations) supplements the AStuPO (general study and examination regulations).",
+    "question_type": "situational",
+    "entities": [
+      "Reverse and Reengineering",
+      "FStuPO",
+      "AStuPO"
+    ]
+  },
+  {
+    "question": "If a student has accumulated 50 ECTS credits and wants to start working on their Master's thesis, do they meet the requirements, and what are the learning outcomes of the Computational Linguistics course?",
+    "ground_truth": "No, a student with 50 ECTS credits does not meet the requirement of a minimum of 60 ECTS credits to start the Master's thesis. The learning outcomes of the Computational Linguistics course include gaining an overview of main concepts, research questions, and methodological frameworks in computational linguistics. The course covers phonetics, morphology, syntax, semantics, and pragmatics, and explores core methods for language processing and generation.",
+    "question_type": "situational",
+    "entities": [
+      "Master's thesis",
+      "ECTS credits",
+      "Computational Linguistics",
+      "learning outcomes"
+    ]
+  },
+  {
+    "question": "If a student is interested in learning about parallel architectures and programming approaches, should they consider the Praktische Parallelprogrammierung course, and how does the qualification profile ensure the fulfillment of the degree program's goals?",
+    "ground_truth": "Yes, the Praktische Parallelprogrammierung course (Practical Parallel Programming) would be suitable for a student interested in parallel architectures and programming approaches. The qualification profile ensures the fulfillment of the degree program's goals through different types of courses, including lectures, exercises, and practical courses.",
+    "question_type": "situational",
+    "entities": [
+      "Praktische Parallelprogrammierung",
+      "parallel architectures",
+      "qualification profile"
+    ]
+  },
+  {
+    "question": "What forms can assessments take, and how does the Examinations Office manage ECTS credits?",
+    "ground_truth": "Assessments can take the form of written examinations, written assignments, colloquiums, oral presentations, written reports, or other assessment formats. The Examinations Office issues each candidate with a credit point balance, to which the ECTS credits attained from modules marked at least ausreichend (sufficient [4.0]) or bestanden (pass) are credited.",
+    "question_type": "double",
+    "entities": [
+      "assessments",
+      "ECTS credits",
+      "Examinations Office"
+    ]
+  },
+  {
+    "question": "What English language certificates are accepted for the application and what knowledge will be gained from Wavelet-Based Methods in Image Processing?",
+    "ground_truth": "Accepted English language certificates include TOEFL (567 paper-based, 87 internet-based, ITP 543 \u201csilver\u201d or better), IELTS (score 5.5), and Cambridge English Language Assessment at level \u201cB2\u201d. The Wavelet-Based Methods in Image Processing course will provide an understanding of multiscale analysis using wavelets, discrete wavelet transformation, and methods for image compression and denoising using wavelets.",
+    "question_type": "double",
+    "entities": [
+      "English language certificates",
+      "Wavelet-Based Methods in Image Processing"
+    ]
+  },
+  {
+    "question": "What are the learning outcomes of the Computational Linguistics course and what skills will students gain in the Project in Visual Computing?",
+    "ground_truth": "The learning outcomes of the Computational Linguistics course include gaining an overview of main concepts, research questions, and methodological frameworks in computational linguistics. In the Project in Visual Computing, students will be able to perform and realize a reasonably sized software project in the area of visual computing or visualization and analyze problems, design effective visualization concepts, and implement these using state-of-the-art libraries.",
+    "question_type": "double",
+    "entities": [
+      "Computational Linguistics",
+      "Project in Visual Computing",
+      "learning outcomes"
+    ]
+  },
+  {
+    "question": "What will students learn about loop programs in the Loop Parallelisation course, and what knowledge will students acquire about multimedia processing in the Multimedia Databases course?",
+    "ground_truth": "In the Loop Parallelisation course, students will learn how imperative programs, especially loop programs with arrays as a central data structure, can be particularly parallelized by automatically preserving the semantics. In the Multimedia Databases course, students will acquire techniques for multimedia processing, feature extraction, similarity comparison, and development of multimedia database management systems (DBMS).",
+    "question_type": "double",
+    "entities": [
+      "Loop Parallelisation",
+      "Multimedia Databases",
+      "loop programs",
+      "multimedia processing"
+    ]
+  },
+  {
+    "question": "What fundamental theory will be understood in the Computerized Tomography course, and what abilities will students gain in the Multimedia-Datenbanken course?",
+    "ground_truth": "In the Computerized Tomography course, students will understand the fundamental theory of computerized tomography and the most common numerical methods. In the Multimedia-Datenbanken course, students will gain the ability to practically specify multimedia queries, implement them, and optimize them.",
+    "question_type": "double",
+    "entities": [
+      "Computerized Tomography",
+      "Multimedia-Datenbanken",
+      "computerized tomography theory",
+      "multimedia queries"
+    ]
+  },
+  {
+    "question": "I'm curious about information retrieval. Is Preference-Based Information Retrieval still offered, and what kind of algorithms does it cover?",
+    "ground_truth": "The Preference-Based Information Retrieval course is probably not offered anymore. It covers different preference models, preference query languages, algorithms for preference aggregation, and similarity measures.",
+    "question_type": "conversational",
+    "entities": [
+      "Preference-Based Information Retrieval",
+      "algorithms"
+    ]
+  },
+  {
+    "question": "I'm looking to enhance my research skills. What do the Research Seminar I and II courses entail, and what general regulations apply to the master's programmes?",
+    "ground_truth": "Research Seminar I and II involve students independently incorporating material into the set seminar topic and professionally preparing and presenting it. The General Study and Examination Regulation for the master's programmes leading to the award of a Master of Science degree of the Faculty of Computer Science and Mathematics at the University of Passau applies.",
+    "question_type": "conversational",
+    "entities": [
+      "Research Seminar I+II",
+      "master's programmes"
+    ]
+  },
+  {
+    "question": "I'm interested in visualization. What is covered in the Data Visualization course, and can you tell me who the professor is for Pure Mathematics?",
+    "ground_truth": "The Data Visualization course covers revisiting important visualization areas, scientific visualization, information visualization, visual analytics and visual data science, advanced visualization concepts, visualization design, biomedical visualization, and tensor visualization. The professor for Pure Mathematics is Prof. Dr. Tobias Kaiser.",
+    "question_type": "conversational",
+    "entities": [
+      "Data Visualization",
+      "visualization",
+      "Tobias Kaiser"
+    ]
+  },
+  {
+    "question": "I'm thinking of taking extra courses. What are the rules for completing additional qualifications, and what will I learn in the Multimedia Retrieval course?",
+    "ground_truth": "Upon prior request, the Board of Examiners should grant the candidate permission to complete assessments in addition to those required by the relevant subject-specific study and examination regulation while studying for their degree. In the Multimedia Retrieval course, students will gain general knowledge of content-based multimedia retrieval and understand the detailed pipeline, including use cases, domain knowledge, feature extraction, retrieval models, indexing, visualization, and user feedback.",
+    "question_type": "conversational",
+    "entities": [
+      "additional qualifications",
+      "Multimedia Retrieval"
+    ]
+  },
+  {
+    "question": "I'm trying to figure out the requirements for passing my Master's exam. What are the compulsory modules I need to pass, and where is the Audimax building located on campus?",
+    "ground_truth": "To pass the Master\u2019s examination, you must pass the compulsory modules and modules from the focus areas AEMM, AIM, AISE, AIA, CCC amounting to at least 70 credit points in total, with specific requirements for each focus area. The Audimax (AM) is located centrally to slightly south on campus, near the Mensa and Central Library.",
+    "question_type": "conversational",
+    "entities": [
+      "Master's exam",
+      "compulsory modules",
+      "Audimax"
+    ]
+  }
+]

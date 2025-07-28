@@ -1,0 +1,598 @@
+[
+  {
+    "question": "What is the course number for Principles of Data Organisation?",
+    "ground_truth": "The course number for Principles of Data Organisation is 6209.",
+    "question_type": "simple",
+    "entities": [
+      "Principles of Data Organisation",
+      "6209"
+    ]
+  },
+  {
+    "question": "What is the module duration for Machine Learning Control and Optimization?",
+    "ground_truth": "The module duration for Machine Learning Control and Optimization is 1 Semester.",
+    "question_type": "simple",
+    "entities": [
+      "Machine Learning Control and Optimization",
+      "1 Semester"
+    ]
+  },
+  {
+    "question": "What does ZKK stand for?",
+    "ground_truth": "ZKK stands for the Future: Career and Competencies Section.",
+    "question_type": "simple",
+    "entities": [
+      "ZKK",
+      "Future: Career and Competencies Section"
+    ]
+  },
+  {
+    "question": "How many ECTS points are there in the 4th Fachsemester?",
+    "ground_truth": "There are 30 ECTS points in the 4th Fachsemester.",
+    "question_type": "simple",
+    "entities": [
+      "4th Fachsemester",
+      "30 ECTS"
+    ]
+  },
+  {
+    "question": "In which language is the Camera Calibration and 3-D Reconstruction course taught?",
+    "ground_truth": "The Camera Calibration and 3-D Reconstruction course is taught in German.",
+    "question_type": "simple",
+    "entities": [
+      "Camera Calibration and 3-D Reconstruction",
+      "German"
+    ]
+  },
+  {
+    "question": "How many ECTS credits can an internship be credited with?",
+    "ground_truth": "An internship can be credited with four ECTS credits.",
+    "question_type": "simple",
+    "entities": [
+      "internship",
+      "4 ECTS credits"
+    ]
+  },
+  {
+    "question": "What is the exam number for Machine Learning Control and Optimization?",
+    "ground_truth": "The exam number for Machine Learning Control and Optimization is 455398.",
+    "question_type": "simple",
+    "entities": [
+      "Machine Learning Control and Optimization",
+      "455398"
+    ]
+  },
+  {
+    "question": "What is the duration of the Machine Learning Lab?",
+    "ground_truth": "The duration of the Machine Learning Lab is 1 Semester.",
+    "question_type": "simple",
+    "entities": [
+      "Machine Learning Lab",
+      "1 Semester"
+    ]
+  },
+  {
+    "question": "In which semester is Science and Technology Project in Physical Making, Prototyping, and Testing offered?",
+    "ground_truth": "Science and Technology Project in Physical Making, Prototyping, and Testing is offered every summer semester.",
+    "question_type": "simple",
+    "entities": [
+      "Science and Technology Project in Physical Making, Prototyping, and Testing",
+      "summer semester"
+    ]
+  },
+  {
+    "question": "What is the name of the professor who holds the Chair of Software Engineering I?",
+    "ground_truth": "Prof. Dr. Christian Hammer holds the Chair of Software Engineering I.",
+    "question_type": "simple",
+    "entities": [
+      "Prof. Dr. Christian Hammer",
+      "Chair of Software Engineering I"
+    ]
+  },
+  {
+    "question": "How does the workload of the Advanced Security Engineering Lab contribute to the learning outcomes related to cybersecurity techniques and how do the legal foundations of data protection covered in Privacy-Preservation Technologies in Information Systems compare with the technical possibilities?",
+    "ground_truth": "The Advanced Security Engineering Lab's workload provides practical experience with advanced hardware-oriented cybersecurity techniques. The Privacy-Preservation Technologies in Information Systems course helps students understand the legal foundations of data protection in Europe (GDPR) and how they compare with technical possibilities.",
+    "question_type": "complex",
+    "entities": [
+      "Advanced Security Engineering Lab",
+      "Privacy-Preservation Technologies in Information Systems",
+      "cybersecurity techniques",
+      "GDPR"
+    ]
+  },
+  {
+    "question": "Considering the recommended skills for the Practical Course: Advanced Topics in Management Science, how does the course content of Principles of Data Organisation complement these skills, and how does the Introduction to Deep Learning build upon the knowledge gained from the other two courses?",
+    "ground_truth": "The Practical Course: Advanced Topics in Management Science recommends mathematical maturity, modeling and optimization knowledge, pseudocode understanding, and basic programming skills. Principles of Data Organisation complements these by covering data storage and file organization. Introduction to Deep Learning builds upon these by providing fundamentals of neural networks and deep learning algorithms.",
+    "question_type": "complex",
+    "entities": [
+      "Practical Course: Advanced Topics in Management Science",
+      "Principles of Data Organisation",
+      "Introduction to Deep Learning",
+      "deep learning algorithms"
+    ]
+  },
+  {
+    "question": "Considering the cooperative awareness concepts taught in Cooperative Autonomous Vehicles, how do they relate to data organization principles covered in Principles of Data Organisation, and how can the organizational strategy learned in Organizational and Competitive Strategy be applied to autonomous vehicle development?",
+    "ground_truth": "Cooperative Autonomous Vehicles teaches cooperative awareness, which relates to data organization principles in Principles of Data Organisation through efficient data sharing and management between vehicles. Organizational and Competitive Strategy provides frameworks applicable to developing competitive strategies for autonomous vehicle technologies and companies.",
+    "question_type": "complex",
+    "entities": [
+      "Cooperative Autonomous Vehicles",
+      "Principles of Data Organisation",
+      "Organizational and Competitive Strategy",
+      "autonomous vehicle"
+    ]
+  },
+  {
+    "question": "How does the language competency gained from FFA Aufbaustufenmodul 1 support a student's ability to understand the virtual course offerings of the Bavarian Virtual University and how does this relate to the University of Passau's statute issued on April 27, 2016?",
+    "ground_truth": "The language competency gained from FFA Aufbaustufenmodul 1 enables students to understand course content from the Bavarian Virtual University. The University of Passau's statute issued on April 27, 2016, allows students to acquire additional qualifications and certificates, including those from the Bavarian Virtual University.",
+    "question_type": "complex",
+    "entities": [
+      "FFA Aufbaustufenmodul 1",
+      "Bavarian Virtual University",
+      "University of Passau",
+      "statute"
+    ]
+  },
+  {
+    "question": "Considering the security concepts learned in Advanced IT Security, how do they relate to finding accommodation in Passau, and how does the CampusCard, which also serves as a semester bus pass, facilitate access to resources related to these security concepts?",
+    "ground_truth": "Advanced IT Security teaches key concepts for secure computing systems, which indirectly relate to accommodation by emphasizing the importance of secure networks and data. The CampusCard facilitates access to university resources, including libraries and labs where students can study IT security.",
+    "question_type": "complex",
+    "entities": [
+      "Advanced IT Security",
+      "CampusCard",
+      "accommodation in Passau"
+    ]
+  },
+  {
+    "question": "How does the location of the Juridicum (JUR) near the Administration building relate to the management science skills taught in the Practical Course and how do those skills complement the digital design principles learned in Digital Design with Verilog-HDL on FPGA?",
+    "ground_truth": "The Juridicum's location near the Administration building doesn't directly relate to the Practical Course. However, the management science skills from the Practical Course can complement the digital design principles by providing a framework for project management and optimization in digital design projects using Verilog-HDL.",
+    "question_type": "complex",
+    "entities": [
+      "Juridicum",
+      "Practical Course: Advanced Topics in Management Science",
+      "Digital Design with Verilog-HDL on FPGA",
+      "Verilog-HDL"
+    ]
+  },
+  {
+    "question": "Considering the fundamentals of neural networks learned in Introduction to Deep Learning, how do they apply to finding accommodation and using the semester bus pass in Passau, and how does the knowledge of Computational Statistics \u2013 Statistical Learning enhance this process?",
+    "ground_truth": "The fundamentals of neural networks learned in Introduction to Deep Learning have no direct application to finding accommodation or using the semester bus pass in Passau. Similarly, Computational Statistics \u2013 Statistical Learning provides no direct enhancement to this process.",
+    "question_type": "complex",
+    "entities": [
+      "Introduction to Deep Learning",
+      "Computational Statistics",
+      "Statistical Learning",
+      "accommodation in Passau",
+      "semester bus pass"
+    ]
+  },
+  {
+    "question": "Given the sample study plan focusing on Information and Communication Systems, how does the knowledge from Mining Software Repositories Lab contribute to understanding the principles of safe train operation taught in Eisenbahnsicherungstechnik (Railway Signaling Technology)?",
+    "ground_truth": "Mining Software Repositories Lab provides practical applications of data science to software engineering, which can indirectly help in understanding the data-driven aspects of Railway Signaling Technology. However, the courses are not directly related.",
+    "question_type": "complex",
+    "entities": [
+      "Mining Software Repositories Lab",
+      "Eisenbahnsicherungstechnik",
+      "Railway Signaling Technology",
+      "Information and Communication Systems"
+    ]
+  },
+  {
+    "question": "How do the skills learned in Security Insider Lab I - Infrastructure Security contribute to the design and development of AI-based systems and how does the minimum ECTS credit requirement from module group 8 impact a student's ability to focus on AI-based systems?",
+    "ground_truth": "Security Insider Lab I - Infrastructure Security provides understanding of network security, which can contribute to designing secure AI-based systems. The minimum 4 ECTS credits from module group 8 ensures students gain knowledge in a different area, potentially broadening their perspective but also limiting their focus on AI-based systems.",
+    "question_type": "complex",
+    "entities": [
+      "Security Insider Lab I - Infrastructure Security",
+      "AI-based systems",
+      "ECTS credits"
+    ]
+  },
+  {
+    "question": "Considering the practical applications learned in Mining Software Repositories Lab, how do they compare to the ability to develop a technical prototype from Industrial Prototyping for Makers, and how are these skills impacted by the ECTS credit requirements for the Master's examination?",
+    "ground_truth": "Mining Software Repositories Lab focuses on applying data science techniques to software engineering data, while Industrial Prototyping for Makers focuses on developing technical prototypes. Both skills are valuable, and the ECTS credit requirements ensure students achieve a balance across different areas of expertise.",
+    "question_type": "complex",
+    "entities": [
+      "Mining Software Repositories Lab",
+      "Industrial Prototyping for Makers",
+      "Master's examination",
+      "ECTS credits"
+    ]
+  },
+  {
+    "question": "While the Responsible Machine Learning course focuses on ethical considerations, how do the student halls of residence managed by the Studentenwerk address the responsible use of resources like water and electricity?",
+    "ground_truth": "The provided contexts do not contain information on how the student halls of residence managed by the Studentenwerk address the responsible use of resources like water and electricity.",
+    "question_type": "distracting",
+    "entities": [
+      "Responsible Machine Learning",
+      "Studentenwerk",
+      "student halls of residence"
+    ]
+  },
+  {
+    "question": "While the iStudi Coach helps international students with job market coaching, how does Energy Informatics II address the smart grid aspects of the energy job market in Passau?",
+    "ground_truth": "Energy Informatics II provides understanding of methodologies, concepts, protocols, and architectures used in smart grids. This can be relevant to the energy job market, but the extent to which it addresses the Passau job market specifically is not mentioned.",
+    "question_type": "distracting",
+    "entities": [
+      "iStudi Coach",
+      "Energy Informatics II",
+      "smart grids"
+    ]
+  },
+  {
+    "question": "While Advanced Data Analytics provides a solid understanding of machine learning, how does Data Modelling and Data Processing in the Internet of Things help in creating a smart home environment with automated lighting?",
+    "ground_truth": "Data Modelling and Data Processing in the Internet of Things provides foundational knowledge in data modelling approaches and techniques to describe, process, and interpret data models of IoT systems, which is directly applicable to creating a smart home environment with automated lighting.",
+    "question_type": "distracting",
+    "entities": [
+      "Advanced Data Analytics",
+      "Data Modelling and Data Processing in the Internet of Things",
+      "smart home",
+      "IoT"
+    ]
+  },
+  {
+    "question": "While the Applied Artificial Intelligence Lab focuses on engineering solutions in AI, how does IoT Security: Security Solutions for the Internet of Things help in protecting a smart refrigerator from cyberattacks?",
+    "ground_truth": "IoT Security: Security Solutions for the Internet of Things provides security solutions, from design-level solutions to use case-specific protocols, and analyzes potential threats in the IoT framework, which is directly applicable to protecting a smart refrigerator from cyberattacks.",
+    "question_type": "distracting",
+    "entities": [
+      "Applied Artificial Intelligence Lab",
+      "IoT Security: Security Solutions for the Internet of Things",
+      "smart refrigerator",
+      "cyberattacks"
+    ]
+  },
+  {
+    "question": "While passing the Master's examination requires achieving at least 120 credit points, how does the Student Services Association (Studentenwerk) assist students in finding affordable furniture for their apartments?",
+    "ground_truth": "The provided contexts do not contain information on how the Student Services Association (Studentenwerk) assists students in finding affordable furniture for their apartments.",
+    "question_type": "distracting",
+    "entities": [
+      "Master's examination",
+      "Student Services Association",
+      "Studentenwerk",
+      "accommodation in Passau"
+    ]
+  },
+  {
+    "question": "While Wavelet-Based Methods in Image Processing focuses on image compression and denoising, how can the iStudi Coach help international students find part-time jobs in image editing companies?",
+    "ground_truth": "The provided contexts do not directly link Wavelet-Based Methods in Image Processing to the iStudi Coach helping students find part-time jobs. The iStudi Coach provides advice to international students on career orientation and everyday life in Passau, which could indirectly help them find jobs.",
+    "question_type": "distracting",
+    "entities": [
+      "Wavelet-Based Methods in Image Processing",
+      "iStudi Coach",
+      "image editing"
+    ]
+  },
+  {
+    "question": "While the Applied Artificial Intelligence Lab focuses on realistic AI problem settings, how does the Resilient Internet-of-Things Infrastructures course help students set up a reliable Wi-Fi network in their dorm rooms?",
+    "ground_truth": "Resilient Internet-of-Things Infrastructures provides knowledge about the architecture of Internet-of-Things (IoT) infrastructures and relevant communication protocols, which is tangentially related to setting up a reliable Wi-Fi network, but the connection is not direct.",
+    "question_type": "distracting",
+    "entities": [
+      "Applied Artificial Intelligence Lab",
+      "Resilient Internet-of-Things Infrastructures",
+      "Wi-Fi network"
+    ]
+  },
+  {
+    "question": "While Security of AI Systems explores IT security risks associated with AI, how does Marktforschung (Market Research) help students determine the best price for selling used textbooks?",
+    "ground_truth": "The provided contexts do not directly link Security of AI Systems to Marktforschung (Market Research) helping students determine the best price for selling used textbooks.",
+    "question_type": "distracting",
+    "entities": [
+      "Security of AI Systems",
+      "Marktforschung",
+      "Market Research",
+      "textbooks"
+    ]
+  },
+  {
+    "question": "While language certificates are required for non-native speakers, how does Energy Informatics I help students understand the energy bill they receive each month?",
+    "ground_truth": "Energy Informatics I provides knowledge of IT and energy systems, including resource utilization, and communication architectures for smart grids, which could indirectly help students understand their energy bill, but the connection is not direct.",
+    "question_type": "distracting",
+    "entities": [
+      "language certificates",
+      "Energy Informatics I",
+      "energy bill"
+    ]
+  },
+  {
+    "question": "While an internship provides practical experience, how does Security of Computer and Embedded Systems help students protect their personal laptops from malware?",
+    "ground_truth": "Security of Computer and Embedded Systems provides an introduction to computer and embedded system security, focusing on building secure systems and ensuring secure system operations, which is directly applicable to protecting personal laptops from malware.",
+    "question_type": "distracting",
+    "entities": [
+      "internship",
+      "Security of Computer and Embedded Systems",
+      "malware"
+    ]
+  },
+  {
+    "question": "I am an international student. Will the skills acquired in the Data Modelling and Data Processing in the Internet of Things course assist me when applying for a residence permit at the Foreign Nationals Office?",
+    "ground_truth": "No, the skills from the Data Modelling and Data Processing in the Internet of Things course are not directly related to applying for a residence permit. Applying for a residence permit involves immigration formalities.",
+    "question_type": "situational",
+    "entities": [
+      "Data Modelling and Data Processing in the Internet of Things",
+      "residence permit",
+      "Foreign Nationals Office"
+    ]
+  },
+  {
+    "question": "I am interested in working in the transport and mobility sector after graduation. Would receiving BAf\u00f6G affect my career prospects?",
+    "ground_truth": "No, receiving BAf\u00f6G, a form of student loan and grant, would not directly affect your career prospects in the transport and mobility sector. However, a master's degree in Artificial Intelligence Engineering opens up outstanding career opportunities in the transport and mobility sector.",
+    "question_type": "situational",
+    "entities": [
+      "BAf\u00f6G",
+      "career prospects",
+      "Artificial Intelligence Engineering",
+      "transport and mobility sector"
+    ]
+  },
+  {
+    "question": "I am an international degree-seeking student. How will the knowledge from Energy Informatics II help me understand the German energy market?",
+    "ground_truth": "Energy Informatics II will provide you with an understanding of the methodologies, concepts, protocols, and architectures used in the context of smart grids, which will give you a foundation for understanding the German energy market.",
+    "question_type": "situational",
+    "entities": [
+      "Energy Informatics II",
+      "smart grids",
+      "German energy market"
+    ]
+  },
+  {
+    "question": "I want to specialize in Algorithmics and Mathematical Modelling, and I am also interested in microelectronics. Will the Introduction to Microelectronics course help me with my specialization?",
+    "ground_truth": "The Introduction to Microelectronics course will not directly help with the Algorithmics and Mathematical Modelling specialization, but it will provide you with basic knowledge of microelectronics, which could be useful in other areas of computer science.",
+    "question_type": "situational",
+    "entities": [
+      "Algorithmics and Mathematical Modelling",
+      "Introduction to Microelectronics",
+      "specialization"
+    ]
+  },
+  {
+    "question": "I am studying AISE and want to work in network security. Will taking Introduction to Microelectronics be beneficial, and how does the Security Insider Lab I course relate to this career goal?",
+    "ground_truth": "While Introduction to Microelectronics provides basic knowledge of microelectronics, it is not directly related to network security. Security Insider Lab I - Infrastructure Security will be more beneficial as it focuses on network topologies, packet routing, security protocols, and building secure infrastructures.",
+    "question_type": "situational",
+    "entities": [
+      "Introduction to Microelectronics",
+      "Security Insider Lab I - Infrastructure Security",
+      "network security",
+      "AISE"
+    ]
+  },
+  {
+    "question": "If I am interested in AI and want to study Model Theory, will it be relevant to my career, and how does Modern Database Systems relate to Model Theory?",
+    "ground_truth": "Model Theory can be relevant to a career in AI, particularly in areas involving logical reasoning and knowledge representation. There is no direct relationship between Modern Database Systems and Model Theory, though both are applicable to the broader field of computer science.",
+    "question_type": "situational",
+    "entities": [
+      "Model Theory",
+      "Modern Database Systems",
+      "AI"
+    ]
+  },
+  {
+    "question": "I have completed the Introduction to AI Engineering lecture and am now planning my master's thesis. Will the knowledge gained from the Artificial Intelligence Applications area be helpful in this process, and what language skills are required for the thesis?",
+    "ground_truth": "Yes, the knowledge gained from the Artificial Intelligence Applications area will be helpful in selecting a topic and conducting research for your master's thesis. The language requirements for the thesis are not specified in the provided context.",
+    "question_type": "situational",
+    "entities": [
+      "Introduction to AI Engineering",
+      "master's thesis",
+      "Artificial Intelligence Applications"
+    ]
+  },
+  {
+    "question": "I am interested in studying Hypervisor Design and Implementation. Is this course held in the Juridicum, and what kind of programming skills are required for this course?",
+    "ground_truth": "The course is not held in Juridicum. The recommended programming skills are experience with Linux, including command-line use, and a willingness to autonomously acquire system-level programming skills in C/C++/assembly.",
+    "question_type": "situational",
+    "entities": [
+      "Hypervisor Design and Implementation",
+      "Juridicum",
+      "Linux",
+      "C/C++/assembly"
+    ]
+  },
+  {
+    "question": "I am planning to work with web-based datasets. Will the Data Science Lab give me the necessary Python skills, and what are the office hours for Professor Sauer?",
+    "ground_truth": "Yes, the Data Science Lab will help you acquire knowledge of current data analysis technologies and corresponding Python libraries to analyze web-based datasets. Professor Sauer does not teach Data Science Lab. The office hours for Professor Sauer are not specified in the Data Science Lab context.",
+    "question_type": "situational",
+    "entities": [
+      "Data Science Lab",
+      "Python",
+      "Professor Sauer"
+    ]
+  },
+  {
+    "question": "I am interested in integrating machine learning components into a software project. Will the AI Engineering Lab provide practical implications for this, and what is the grading scale used for the Master's examination?",
+    "ground_truth": "Yes, the AI Engineering Lab will teach you the practical implications of integrating machine learning components into a software project. The grading scale for the Master's examination is provided, ranging from 1.0 ('very good') to 4.0 ('sufficient').",
+    "question_type": "situational",
+    "entities": [
+      "AI Engineering Lab",
+      "machine learning",
+      "Master's examination",
+      "grading scale"
+    ]
+  },
+  {
+    "question": "What are the learning outcomes for Kamerakalibrierung und 3D-Rekonstruktion, and how does Reverse and Reengineering enhance software systems?",
+    "ground_truth": "The learning outcomes for Kamerakalibrierung und 3D-Rekonstruktion include knowledge of the pinhole camera model and understanding of 3D reconstruction principles. Reverse and Reengineering enhances software systems by analyzing and refactoring unspecified or outdated software systems.",
+    "question_type": "double",
+    "entities": [
+      "Kamerakalibrierung und 3D-Rekonstruktion",
+      "Reverse and Reengineering",
+      "software systems"
+    ]
+  },
+  {
+    "question": "What knowledge will I gain from the Safety and Security of Critical Infrastructures course, and what legal fundamentals are covered in IT Security Law?",
+    "ground_truth": "The Safety and Security of Critical Infrastructures course will provide you with knowledge of current and future concepts of security in networks. IT Security Law covers the legal fundamentals of IT security law, including constitutional basics, public and civil law references, and data protection law.",
+    "question_type": "double",
+    "entities": [
+      "Safety and Security of Critical Infrastructures",
+      "IT Security Law"
+    ]
+  },
+  {
+    "question": "What will I understand after completing Privacy-Preservation Technologies in Information Systems, and what modern approaches will I become familiar with in Deep Learning for Natural Language and Code?",
+    "ground_truth": "After completing Privacy-Preservation Technologies in Information Systems, you will understand core concepts of technologies for privacy protection, legal foundations of data protection (GDPR), and differences between privacy and security. In Deep Learning for Natural Language and Code, you will become familiar with modern approaches for addressing tasks using natural language and code processing techniques.",
+    "question_type": "double",
+    "entities": [
+      "Privacy-Preservation Technologies in Information Systems",
+      "Deep Learning for Natural Language and Code",
+      "GDPR"
+    ]
+  },
+  {
+    "question": "What are the learning outcomes of the Digital Healthcare course, and what can I do with a validated CampusCard?",
+    "ground_truth": "The learning outcomes of the Digital Healthcare course include learning fundamental approaches, methods, and tools for capturing, processing, and evaluating data in Digital Health. With a validated CampusCard, you can use the buses in Passau around the clock.",
+    "question_type": "double",
+    "entities": [
+      "Digital Healthcare",
+      "CampusCard"
+    ]
+  },
+  {
+    "question": "What is Professor Kavun's professorship, and when was the statute issued by the University of Passau?",
+    "ground_truth": "Professor Kavun's professorship is Secure Intelligent Systems. The statute was issued by the University of Passau on May 17, 2021.",
+    "question_type": "double",
+    "entities": [
+      "Professor Kavun",
+      "Secure Intelligent Systems",
+      "University of Passau",
+      "statute"
+    ]
+  },
+  {
+    "question": "What career opportunities does a degree in Artificial Intelligence Engineering open up, and what knowledge will I gain from the Digital Healthcare course?",
+    "ground_truth": "A degree in Artificial Intelligence Engineering opens up career opportunities in systems development, software engineering, data analysis, and the medical and pharmaceutical industries. The Digital Healthcare course will provide you with knowledge of methods and tools for handling sensitive health data, current digitalization trends in healthcare, and case studies in areas like emergency services and personal health.",
+    "question_type": "double",
+    "entities": [
+      "Artificial Intelligence Engineering",
+      "Digital Healthcare"
+    ]
+  },
+  {
+    "question": "Where is the Chair of Data and Knowledge Engineering located, and what will I learn in the Machine Learning Lab?",
+    "ground_truth": "The Chair of Data and Knowledge Engineering is located at Dr.-Hans-Kapfinger-Str. 30, 94032 Passau. In the Machine Learning Lab, you will gain knowledge on implementing machine learning and optimization algorithms and using numerical libraries in Python.",
+    "question_type": "double",
+    "entities": [
+      "Chair of Data and Knowledge Engineering",
+      "Machine Learning Lab"
+    ]
+  },
+  {
+    "question": "What are the requirements for admission to the master's thesis, and what will I learn in Advanced IT Security?",
+    "ground_truth": "The requirements for admission to the master's thesis include being enrolled in the master\u2019s programme and furnishing proof of having acquired at least 40 ECTS credits. In Advanced IT Security, you will understand key concepts for secure and distributed computing systems and gain knowledge in operating systems, communications, IT security, and basic security protocols.",
+    "question_type": "double",
+    "entities": [
+      "master's thesis",
+      "Advanced IT Security"
+    ]
+  },
+  {
+    "question": "What security attributes will I understand in Cloud Security, and what will I learn in Machine Learning Control and Optimization?",
+    "ground_truth": "In Cloud Security, you will understand security attributes such as authenticity, confidentiality, integrity, and availability. In Machine Learning Control and Optimization, you will understand the fundamental principles of data-based control for dynamic systems.",
+    "question_type": "double",
+    "entities": [
+      "Cloud Security",
+      "Machine Learning Control and Optimization"
+    ]
+  },
+  {
+    "question": "What are the learning outcomes of Responsible Machine Learning, and what topics are covered in Advanced Topics in Data Science?",
+    "ground_truth": "The learning outcomes of Responsible Machine Learning include understanding the key aspects of applying machine learning responsibly in sensitive contexts. Advanced Topics in Data Science covers advanced topics and recent developments in data science, with emphasis on natural computing techniques and reinforcement learning.",
+    "question_type": "double",
+    "entities": [
+      "Responsible Machine Learning",
+      "Advanced Topics in Data Science"
+    ]
+  },
+  {
+    "question": "Could you tell me more about the Advanced Topics in Data Science course? What kind of knowledge will I gain, and how does it relate to the ITS-Praktikum?",
+    "ground_truth": "The Advanced Topics in Data Science course will provide you with advanced knowledge in data science, focusing on natural computing techniques and reinforcement learning. The ITS-Praktikum focuses on project management skills and methodologies relevant to intelligent technical systems. While Advanced Topics in Data Science can provide useful knowledge for projects within the ITS-Praktikum, they are separate modules with different focuses.",
+    "question_type": "conversational",
+    "entities": [
+      "Advanced Topics in Data Science",
+      "ITS-Praktikum"
+    ]
+  },
+  {
+    "question": "I'm looking for an internship to gain some real-world experience. What exactly will I learn during the internship, and how can a Master's degree in AI Engineering help me after I graduate?",
+    "ground_truth": "During the internship, you will become familiar with the professional environment in a typical field of your study through scientific supervision by a university professor. You will acquire knowledge about the activities and requirements within that field and insights into business contexts, employee management, and organizational aspects. A Master's degree in Artificial Intelligence Engineering will enable you to work independently or take on executive positions in various industries.",
+    "question_type": "conversational",
+    "entities": [
+      "Internship",
+      "Artificial Intelligence Engineering"
+    ]
+  },
+  {
+    "question": "I'm curious about the IT-Security and Reliability module group. Could you elaborate on the courses offered, and how does Energy Informatics I fit into the mix, if at all?",
+    "ground_truth": "The context lists various courses in the IT-Security and Reliability module group, such as Cloud Security, Secure Information Flow, and Privacy Enhancing Techniques. Energy Informatics I focuses on the relationship between IT and energy systems and is not part of the IT-Security and Reliability module group.",
+    "question_type": "conversational",
+    "entities": [
+      "IT-Security and Reliability",
+      "Energy Informatics I"
+    ]
+  },
+  {
+    "question": "I'm trying to understand the M.Sc. Computer Science program structure. What are the five subject areas, and how can I use this information to guide my course selection?",
+    "ground_truth": "The five subject areas are: 1. Algorithms and Mathematical Modelling, 2. Programming and Software Systems, 3. Information and Communication Systems, 4. Artificial Intelligence and Data Mining, and 5. Distributed Systems and Operating Systems. This structure provides a framework for choosing core and elective modules within each area to specialize in a particular field.",
+    "question_type": "conversational",
+    "entities": [
+      "M.Sc. Computer Science",
+      "Algorithms and Mathematical Modelling",
+      "Programming and Software Systems",
+      "Information and Communication Systems",
+      "Artificial Intelligence and Data Mining",
+      "Distributed Systems and Operating Systems"
+    ]
+  },
+  {
+    "question": "I am interested in prototyping and testing. What is the Science and Technology Project course about, and how does it relate to the Principles of Data Organisation course?",
+    "ground_truth": "The Science and Technology Project course focuses on user-centered and technology-oriented making processes, ideation, and prototyping. Principles of Data Organisation focuses on data storage and file organization. They are not directly related, but good data organization can be important when creating software for prototyping.",
+    "question_type": "conversational",
+    "entities": [
+      "Science and Technology Project",
+      "Principles of Data Organisation"
+    ]
+  },
+  {
+    "question": "What happens if I take extra modules beyond what's required for my degree, and who do I contact if I want to attend individual courses from other degree programs?",
+    "ground_truth": "If you take additional modules, you'll get a separate transcript, but those grades won't count toward your final degree grade. To attend courses from other programs, contact the relevant lecturer/module convenor directly.",
+    "question_type": "conversational",
+    "entities": [
+      "additional modules",
+      "lecturer"
+    ]
+  },
+  {
+    "question": "I'm fascinated by cryptography and secure systems. What will I learn in the Security Processor Design course, and could you also provide the contact information for Professor Katzenbeisser?",
+    "ground_truth": "In Security Processor Design, you'll learn the theoretical and practical background for designing a programmable cryptographic processor. You'll practice designing a basic computer with cryptographic processing functions and implementing it using Verilog-HDL. Professor Katzenbeisser's email is stefan.katzenbeisser@uni-passau.de.",
+    "question_type": "conversational",
+    "entities": [
+      "Security Processor Design",
+      "Professor Katzenbeisser",
+      "cryptography"
+    ]
+  },
+  {
+    "question": "I'm concerned about online privacy. What does the Privacy Enhancing Techniques course cover, and does it require a specific level of English proficiency, like the FFA Aufbaustufenmodul 2?",
+    "ground_truth": "The Privacy Enhancing Techniques course provides an overview of PETs in general and in specific contexts like databases and Big Data, discussing privacy threats and protection. The required English proficiency level is not mentioned in the context of this course but is B1 for FFA Aufbaustufenmodul 2.",
+    "question_type": "conversational",
+    "entities": [
+      "Privacy Enhancing Techniques",
+      "FFA Aufbaustufenmodul 2"
+    ]
+  },
+  {
+    "question": "I'm interested in graph theory. What is Perkolation auf Graphen about, and how does it relate to Topology?",
+    "ground_truth": "Perkolation auf Graphen provides an overview of the theory of percolation on graphs, including fundamental concepts and results. Topology covers basic notions like open and closed sets, convergence, and continuity. While both are mathematical fields, they don't have a direct relationship within the provided context.",
+    "question_type": "conversational",
+    "entities": [
+      "Perkolation auf Graphen",
+      "Topology"
+    ]
+  },
+  {
+    "question": "What kind of jobs can I get with a master's in Artificial Intelligence Engineering, and is it advantageous to have knowledge in Corporate Finance und Kapitalm\u00e4rkte?",
+    "ground_truth": "With a master's in Artificial Intelligence Engineering, you can pursue careers in systems development, software engineering, data analysis, and various industries like transport, healthcare, and finance. While not explicitly stated, knowledge in Corporate Finance und Kapitalm\u00e4rkte might be beneficial for roles in the financial sector or for managing AI-related projects within a company.",
+    "question_type": "conversational",
+    "entities": [
+      "Artificial Intelligence Engineering",
+      "Corporate Finance und Kapitalm\u00e4rkte"
+    ]
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "question": "What is the abbreviation for Zentrum f\u00fcr Medien und Kommunikation?",
+    "ground_truth": "ZMK",
+    "question_type": "simple",
+    "entities": [
+      "Zentrum f\u00fcr Medien und Kommunikation",
+      "ZMK"
+    ]
+  },
+  {
+    "question": "What is the last revised date of the Modulkatalog M.Sc. Informatik?",
+    "ground_truth": "08 May 2024",
+    "question_type": "simple",
+    "entities": [
+      "Modulkatalog M.Sc. Informatik"
+    ]
+  },
+  {
+    "question": "What faculty does the Informatik und Mathematik building host?",
+    "ground_truth": "Faculty of Computer Science and Mathematics",
+    "question_type": "simple",
+    "entities": [
+      "Informatik und Mathematik",
+      "Faculty of Computer Science and Mathematics"
+    ]
+  },
+  {
+    "question": "What is the normal form of proof for entry qualifications?",
+    "ground_truth": "A bachelor\u2019s dissertation",
+    "question_type": "simple",
+    "entities": [
+      "Entry qualifications"
+    ]
+  },
+  {
+    "question": "Where is compulsory attendance regulated?",
+    "ground_truth": "\u00a7 18 of the \u201cGeneral Study and Examination Regulations (AStuPO)\u201c",
+    "question_type": "simple",
+    "entities": [
+      "Compulsory attendance",
+      "AStuPO"
+    ]
+  },
+  {
+    "question": "What academic degree is awarded after successfully completing a master's examination?",
+    "ground_truth": "Master of Science (M.Sc.)",
+    "question_type": "simple",
+    "entities": [
+      "Master of Science",
+      "M.Sc."
+    ]
+  },
+  {
+    "question": "How is the final grade determined after successful completion of the master's examination?",
+    "ground_truth": "The final grade for the programme is determined on the basis of the marks awarded for all graded modules and the mark awarded for the master's thesis; the final grade is calculated from the average weighted by ECTS credit values.",
+    "question_type": "simple",
+    "entities": [
+      "final grade",
+      "master's examination",
+      "ECTS"
+    ]
+  },
+  {
+    "question": "What documents are issued upon request after successfully completing the master's examination?",
+    "ground_truth": "A final transcript, degree certificate and diploma supplement",
+    "question_type": "simple",
+    "entities": [
+      "final transcript",
+      "degree certificate",
+      "diploma supplement",
+      "master's examination"
+    ]
+  },
+  {
+    "question": "How many ECTS credits is the Presentation of the Master\u2019s Thesis course worth?",
+    "ground_truth": "3",
+    "question_type": "simple",
+    "entities": [
+      "Presentation of the Master\u2019s Thesis",
+      "ECTS"
+    ]
+  },
+  {
+    "question": "Who corrects and assesses the master's thesis?",
+    "ground_truth": "The supervisor (first examiner) who set the topic and by the second examiner",
+    "question_type": "simple",
+    "entities": [
+      "master's thesis",
+      "supervisor",
+      "examiner"
+    ]
+  },
+  {
+    "question": "Who should deficiencies in the conduct of an examination be notified to?",
+    "ground_truth": "The chairperson of the Board of Examiners or to the examiners present during the assessment.",
+    "question_type": "simple",
+    "entities": [
+      "Examination",
+      "Board of Examiners"
+    ]
+  },
+  {
+    "question": "What happens if a candidate cheats during an examination and this is established after the final transcript has been issued?",
+    "ground_truth": "The Board of Examiners may correct the relevant marks and grades retroactively and declare the examination to have been failed in whole or in part.",
+    "question_type": "simple",
+    "entities": [
+      "examination",
+      "Board of Examiners"
+    ]
+  },
+  {
+    "question": "What is the course number for Preference-Based Information Retrieval?",
+    "ground_truth": "5982",
+    "question_type": "simple",
+    "entities": [
+      "Preference-Based Information Retrieval"
+    ]
+  },
+  {
+    "question": "What is the minimum number of ECTS credits required to pass the master's examination?",
+    "ground_truth": "120",
+    "question_type": "simple",
+    "entities": [
+      "master's examination",
+      "ECTS"
+    ]
+  },
+  {
+    "question": "Where can you change the display setting to English in Stud.IP?",
+    "ground_truth": "Click on your profile picture (upper right hand corner of the screen), select \" Einstellungen\" and under \" Sprache\" choose \"English\".",
+    "question_type": "simple",
+    "entities": [
+      "Stud.IP"
+    ]
+  }
+]

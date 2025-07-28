@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environments
+venv/
+env/
+rag_evaluator_env/
+
+# FastAPI
+.env
+.env.local
+.env.*.local
+*.log
+logs/
+instance/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# React / Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-store/
+
+# React build files
+/build
+/dist
+/.parcel-cache
+/.next
+/out
+
+# IDEs and Editors
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+.temp/
+.tmp/
+
+# Documentation build
+docs/_build/
+site/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+
+
+.history/
+.vscode-test/
+*.log.*
+*.pid
+*.seed
+*.pid.lock
