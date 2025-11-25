@@ -4,7 +4,7 @@
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.13+
 - Node.js 16+ and npm
 
 ### Installation
